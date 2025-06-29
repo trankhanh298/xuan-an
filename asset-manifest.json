@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/xuan-an/static/css/main.38bae9d2.css",
-    "main.js": "/xuan-an/static/js/main.054a7d8b.js",
+    "main.js": "/xuan-an/static/js/main.75013bc5.js",
     "static/js/453.2e4c41e9.chunk.js": "/xuan-an/static/js/453.2e4c41e9.chunk.js",
+    "static/media/can-tay.jpg": "/xuan-an/static/media/can-tay.2ed54c8a9fa6b4d88b05.jpg",
     "static/media/logo.svg": "/xuan-an/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/xuan-an/index.html",
     "main.38bae9d2.css.map": "/xuan-an/static/css/main.38bae9d2.css.map",
-    "main.054a7d8b.js.map": "/xuan-an/static/js/main.054a7d8b.js.map",
+    "main.75013bc5.js.map": "/xuan-an/static/js/main.75013bc5.js.map",
     "453.2e4c41e9.chunk.js.map": "/xuan-an/static/js/453.2e4c41e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38bae9d2.css",
-    "static/js/main.054a7d8b.js"
+    "static/js/main.75013bc5.js"
   ]
 }
