@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/xuan-an/static/css/main.38bae9d2.css",
-    "main.js": "/xuan-an/static/js/main.75013bc5.js",
+    "main.css": "/xuan-an/static/css/main.54b1d8c6.css",
+    "main.js": "/xuan-an/static/js/main.2f22d090.js",
     "static/js/453.2e4c41e9.chunk.js": "/xuan-an/static/js/453.2e4c41e9.chunk.js",
     "static/media/can-tay.jpg": "/xuan-an/static/media/can-tay.2ed54c8a9fa6b4d88b05.jpg",
+    "static/media/dua-leo.jpg": "/xuan-an/static/media/dua-leo.bb0cd1409352e22ff232.jpg",
+    "static/media/about-me.jpg": "/xuan-an/static/media/about-me.6a79a03a0416cc473daa.jpg",
+    "static/media/dau-nhat.jpg": "/xuan-an/static/media/dau-nhat.58f85ecfcd7f6ddcf890.jpg",
+    "static/media/ca-chua.jpg": "/xuan-an/static/media/ca-chua.bf9d60c304336bdbb638.jpg",
     "static/media/logo.svg": "/xuan-an/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/xuan-an/index.html",
-    "main.38bae9d2.css.map": "/xuan-an/static/css/main.38bae9d2.css.map",
-    "main.75013bc5.js.map": "/xuan-an/static/js/main.75013bc5.js.map",
+    "main.54b1d8c6.css.map": "/xuan-an/static/css/main.54b1d8c6.css.map",
+    "main.2f22d090.js.map": "/xuan-an/static/js/main.2f22d090.js.map",
     "453.2e4c41e9.chunk.js.map": "/xuan-an/static/js/453.2e4c41e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38bae9d2.css",
-    "static/js/main.75013bc5.js"
+    "static/css/main.54b1d8c6.css",
+    "static/js/main.2f22d090.js"
   ]
 }
