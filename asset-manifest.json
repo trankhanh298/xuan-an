@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/xuan-an/static/css/main.38bae9d2.css",
+    "main.js": "/xuan-an/static/js/main.054a7d8b.js",
+    "static/js/453.2e4c41e9.chunk.js": "/xuan-an/static/js/453.2e4c41e9.chunk.js",
+    "static/media/logo.svg": "/xuan-an/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/xuan-an/index.html",
+    "main.38bae9d2.css.map": "/xuan-an/static/css/main.38bae9d2.css.map",
+    "main.054a7d8b.js.map": "/xuan-an/static/js/main.054a7d8b.js.map",
+    "453.2e4c41e9.chunk.js.map": "/xuan-an/static/js/453.2e4c41e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38bae9d2.css",
+    "static/js/main.054a7d8b.js"
+  ]
+}
