@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import heroImage from './assets/can-tay.jpg';
+import tomatoImage from './assets/ca-chua.jpg';
+import strawberryImage from './assets/dau-nhat.jpg';
+import cucumberImage from './assets/dua-leo.jpg';
+import aboutImage from './assets/about-me.jpg';
 
 function App() {
   return (
@@ -7,15 +12,15 @@ function App() {
       <header class="main-header">
         <div class="container">
             <div class="logo">
-                <a href="#">Your Organic Farm Logo</a>
+                <a href="#">Yêu Cỏ Cây</a>
             </div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="#shop">Shop</a></li>
-                    <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#shop">Sản phẩm</a></li>
+                    <li><a href="#how-it-works">Quy trình mua hàng</a></li>
+                    <li><a href="#about">Tôi là ai</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                    <li><a href="#">Cẩm nang sức khoẻ</a></li>
                 </ul>
             </nav>
             <div class="utility-icons">
@@ -29,40 +34,40 @@ function App() {
       <section class="hero-section">
         <div class="container">
             <div class="hero-content">
-                <h1>Fresh Organic Vegetables, Delivered to Your Door in Da Lat</h1>
-                <p>Taste the difference of farm-fresh, chemical-free produce grown with care right here in Lâm Đồng.</p>
-                <a href="#shop" class="btn btn-primary">Shop Our Produce Now</a>
+                <h1>Nông sản thuận tự nhiên, giao tận nhà</h1>
+                <p>Hãy bảo vệ sức khoẻ cho bạn và gia đình từ việc sử dụng những sản phẩm tự nhiên không phân thuốc hoá học.</p>
+                <a href="#shop" class="btn btn-primary">Quẹo lựa nào</a>
             </div>
             <div class="hero-image-placeholder">
-                <img src="https://via.placeholder.com/600x400/98C1D9/3D5A80?text=Vibrant+Organic+Veggies" alt="Placeholder image of fresh organic vegetables"/>
+                <img src={heroImage} alt="Organic vegetables"/>
             </div>
         </div>
     </section>
 
     <section id="how-it-works" class="how-it-works-section">
         <div class="container">
-            <h2>How It Works</h2>
+            <h2>Quy trình mua hàng</h2>
             <div class="steps-grid">
                 <div class="step-item">
-                    <div class="step-icon">
+                    {/* <div class="step-icon">
                         <img src="https://via.placeholder.com/80x80/98C1D9/3D5A80?text=1" alt="Step 1 icon"/>
-                    </div>
-                    <h3>1. Choose Your Veggies</h3>
-                    <p>Browse our seasonal selection of organic fruits, vegetables, and herbs.</p>
+                    </div> */}
+                    <h3>1. Liên Hệ Chúng tôi qua số điện thoại</h3>
+                    <p>Bạn có thể kết bạn qua Zalo hoặc gọi điện trực tiếp qua số: +84 336 691 846.</p>
                 </div>
                 <div class="step-item">
-                    <div class="step-icon">
+                    {/* <div class="step-icon">
                         <img src="https://via.placeholder.com/80x80/98C1D9/3D5A80?text=2" alt="Step 2 icon"/>
-                    </div>
-                    <h3>2. Order Online</h3>
-                    <p>Add your favorites to your cart and complete your secure checkout.</p>
+                    </div> */}
+                    <h3>2. Tư vấn cùng chuyên viên bán hàng</h3>
+                    <p>Nhận thông tin về tình trạng sản phẩm, giá hiện tại liên quan đến sản phẩm bạn quan tâm.</p>
                 </div>
                 <div class="step-item">
-                    <div class="step-icon">
+                    {/* <div class="step-icon">
                         <img src="https://via.placeholder.com/80x80/98C1D9/3D5A80?text=3" alt="Step 3 icon"/>
-                    </div>
-                    <h3>3. Fresh Delivery</h3>
-                    <p>We deliver your farm-fresh goodness directly to your home in Da Lat.</p>
+                    </div> */}
+                    <h3>3. Lên đơn hàng</h3>
+                    <p>Chốt danh sách và số lượng sản phẩm, Yêu Cỏ Cây sẽ giao hàng đến nhà bạn. Sau khi xác nhận đơn hàng, bạn có thể yên tâm thanh toán bằng cách chuyển khoản.</p>
                 </div>
             </div>
         </div>
@@ -70,30 +75,24 @@ function App() {
 
     <section id="shop" class="featured-products-section">
         <div class="container">
-            <h2>Our Fresh Organic Selection</h2>
+            <h2>Một số sản phẩm tiêu biểu</h2>
             <div class="product-grid">
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/300x200/98C1D9/3D5A80?text=Organic+Carrots" alt="Placeholder organic carrots"/>
+                    <img src={tomatoImage} alt="Tomato"/>
                     <h3>Organic Carrots</h3>
                     <p class="price">50.000đ / kg</p>
                     <a href="#" class="btn btn-secondary">Add to Cart</a>
                 </div>
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/300x200/98C1D9/3D5A80?text=Organic+Lettuce" alt="Placeholder organic lettuce"/>
+                    <img src={strawberryImage} alt="Strawberry"/>
                     <h3>Organic Lettuce</h3>
-                    <p class="price">35.000đ / head</p>
+                    <p class="price">180.000đ / hộp</p>
                     <a href="#" class="btn btn-secondary">Add to Cart</a>
                 </div>
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/300x200/98C1D9/3D5A80?text=Organic+Tomatoes" alt="Placeholder organic tomatoes"/>
+                    <img src={cucumberImage} alt="Cucumber"/>
                     <h3>Organic Tomatoes</h3>
                     <p class="price">45.000đ / kg</p>
-                    <a href="#" class="btn btn-secondary">Add to Cart</a>
-                </div>
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/300x200/98C1D9/3D5A80?text=Seasonal+Berries" alt="Placeholder seasonal berries"/>
-                    <h3>Seasonal Berries</h3>
-                    <p class="price">80.000đ / pack</p>
                     <a href="#" class="btn btn-secondary">Add to Cart</a>
                 </div>
             </div>
@@ -104,44 +103,39 @@ function App() {
     <section id="about" class="about-us-section">
         <div class="container">
             <div class="about-image-placeholder">
-                <img src="https://via.placeholder.com/500x350/98C1D9/3D5A80?text=Our+Da+Lat+Farm" alt="Placeholder image of an organic farm in Da Lat"/>
+                <img src={aboutImage} alt="Đôi lời về Yêu Cỏ Cây"/>
             </div>
             <div class="about-content">
-                <h2>Our Story: Freshness from Da Lat</h2>
-                <p>We are a family-owned organic farm nestled in the beautiful highlands of Da Lat, Lâm Đồng. With a passion for sustainable farming and a commitment to healthy living, we cultivate the finest organic vegetables using traditional methods and modern ecological practices.</p>
-                <p>Every vegetable is harvested at its peak freshness and delivered directly to your home, ensuring you get the best of nature with every bite. We believe in transparency, quality, and nourishing our community.</p>
-                <a href="#" class="btn btn-secondary-outline">Learn More About Our Farm</a>
+                <h2>Câu chuyện của chúng tôi: Bỏ phố về rừng</h2>
+                <p>Chúng tôi là một nhà cung cấp rau hữu cơ và những sản phẩm sạch đến từ khu vực Lâm Đồng nói riêng và Tây Nguyên nói chung. Với sự yêu thích và cam kết về sự bền vững trong nông nghiệp và sức khỏe, chúng tôi chỉ phân phối những sản phẩm sạch và chất lượng đến tay người tiêu dùng.</p>
+                <p>Mỗi loại rau đều được trồng theo hướng hữu cơ, không sử dụng phân thuốc hoá học, đảm bảo bạn nhận được những thứ tốt nhất từ thiên nhiên với mỗi bữa ăn.</p>
+                <a href="#" class="btn btn-secondary-outline">Tìm hiểu thêm về nông trại của chúng tôi</a>
             </div>
         </div>
     </section>
 
     <section class="newsletter-section">
         <div class="container">
-            <h2>Stay Fresh with Our Newsletter!</h2>
-            <p>Sign up for exclusive offers, new product alerts, and delicious organic recipes.</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Enter your email address" required/>
-                <button type="submit" class="btn btn-primary">Subscribe</button>
-            </form>
+            <h2>Cập nhật tin tức mới nhất thông qua kênh Zalo va FB của chúng tôi!</h2>
+            <p>Zalo: </p>
+            <p>FB: </p>
         </div>
     </section>
 
     <footer class="main-footer">
         <div class="container">
             <div class="footer-col">
-                <h3>Your Organic Farm</h3>
-                <p>Fresh Organic Vegetables from Da Lat, Lâm Đồng, Vietnam</p>
-                <p>Email: info@yourfarm.com</p>
-                <p>Phone: +84 XXX XXX XXX</p>
+                <h3>Yêu Cỏ Cây</h3>
+                <p>Nông Sản Thuận Tự Nhiên, Lâm Đồng, Việt Nam</p>
+                <p>Phone: +84 336 691 846</p>
+
             </div>
             <div class="footer-col">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#shop">Shop Now</a></li>
                     <li><a href="#how-it-works">How It Works</a></li>
                     <li><a href="#about">Our Story</a></li>
                     <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -152,12 +146,12 @@ function App() {
                     <a href="#" target="_blank">Zalo</a>
                 </div>
                 <div class="payment-methods">
-                    <img src="https://via.placeholder.com/100x30/98C1D9/3D5A80?text=Payment+Logos" alt="Payment methods"/>
+                    <img src="https://via.placeholder.com/100x30/98C1D9/3D5A80?text=Payment+Logos" alt="Mã QR chuyển tiền"/>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2025 Your Organic Farm. All rights reserved.</p>
+            <p>&copy; 2025 Yêu Cỏ Cây. All rights reserved.</p>
         </div>
     </footer>
 
